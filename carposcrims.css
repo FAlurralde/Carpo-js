@@ -1,0 +1,351 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+
+/**/
+
+body {
+    background-color: rgb(26, 25, 25);
+    color: honeydew;
+    text-decoration: none;
+    box-sizing: border-box;
+    min-height: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 30px;
+}
+
+#header__site-logo a {
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+.header__logo a {
+    font-family: 'Black Ops One', cursive;
+    color: rgb(253, 180, 44);
+    text-shadow: 3px 4px 7px rgb(255, 231, 196);
+    font-size: 700%;
+    letter-spacing: 200%;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 41%;
+    padding-right: 15%;
+}
+
+#body__index {
+    background: url(img/036.jpg);
+    background-size: cover;
+    min-height: 100%;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+.index__welcome-w {
+    background-image: url(img/022A.jpg);
+    background-size: 100%;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    padding-bottom: 30px;
+    margin: 25px;
+}
+
+#body__index {
+    background: url(img/036.jpg);
+    background-size: cover;
+    min-height: 100%;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+.index__welcome h2 {
+    background-color: rgb(26, 25, 25);
+    font-family: 'Black Ops One', cursive;
+    color: rgb(192, 49, 49);
+    text-shadow: 3px 3px 4px rgb(226, 159, 159);
+    font-size: 5rem;
+    letter-spacing: 1rem;
+    text-align: center;
+    padding-top: 7%;
+}
+
+#server {
+    background-color: rgb(26, 25, 25);
+    font-family: 'Black Ops One', cursive;
+    color: rgb(192, 49, 49);
+    text-shadow: 3px 3px 4px rgb(226, 159, 159);
+    font-size: 2.5rem;
+    letter-spacing: 1rem;
+    text-align: center;
+    padding-top: 7%;
+}
+
+.index__welcome-moal option {}
+
+.index__welcome-w {
+    font-family: 'Black Ops One', cursive;
+    color: rgb(253, 180, 44);
+    text-shadow: 2px 3px 4px rgb(255, 231, 196), 5px 6px 15px rgb(0, 0, 0);
+    text-align: center;
+    font-size: 4.5rem;
+}
+
+.index__welcome-w {
+    background-size: 100%;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 25px;
+}
+
+.index__welcome-we {
+    font-family: 'Black Ops One', cursive;
+    color: rgb(253, 180, 44);
+    font-size: 2.5rem;
+    background-size: 100%;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 05px;
+}
+
+.index__ex {
+    font-family: 'Black Ops One', cursive;
+    color: rgb(253, 180, 44);
+    font-size: 1.5rem;
+    background-size: 100%;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 02px;
+}
+
+.welcome-w {
+    font-family: 'Black Ops One', cursive;
+    color: rgb(253, 180, 44);
+    text-align: center;
+    text-shadow: 2px 3px 4px rgb(255, 231, 196), 5px 6px 15px rgb(0, 0, 0);
+    font-size: 6.5rem;
+    background-image: url(img/022A.jpg);
+    background-size: 100%;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    padding-bottom: 170px;
+    margin: 50px;
+}
+
+#footer {
+    padding: 75px;
+}
+
+#footer ul li a {
+    color: rgb(255, 255, 255);
+    font-size: 2.1rem;
+    text-decoration: none;
+    letter-spacing: 5px;
+}
+
+.nav-link {
+    color: rgb(255, 255, 255);
+    font-size: 3.0rem;
+    letter-spacing: 3px;
+    margin: 20px
+}
+
+.nav-item:hover {
+    transform: scale(1.1);
+}
+
+.facebook-button {
+    background-color: #3b5998;
+    color: rgb(255, 255, 255);
+    font-size: 2.0rem;
+    letter-spacing: 3px;
+    margin: 20px;
+    padding: 7px;
+}
+
+.instagram-button {
+    width: 100px;
+    height: 100px;
+    color: rgb(255, 255, 255);
+    background: #f09433;
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    font-size: 2.0rem;
+    letter-spacing: 3px;
+    margin: 20px;
+    padding: 7px;
+}
+
+.youtube-button {
+    background-color: #c4302b;
+    color: rgb(255, 255, 255);
+    font-size: 2.0rem;
+    letter-spacing: 3px;
+    margin: 20px;
+    padding: 7px;
+}
+
+.twitter-button {
+    background-color: #00acee;
+    color: rgb(255, 255, 255);
+    font-size: 2.0rem;
+    letter-spacing: 3px;
+    margin: 30px;
+    padding: 7px;
+}
+
+.section__rooms ul li:hover {
+    transform: scale(1.4);
+}
+
+.section__rooms ul li {
+    display: inline-block;
+    justify-content: right;
+    padding: 8.5%;
+    padding-left: 12%;
+    padding-right: 40px;
+}
+
+.sign_up ul li {
+    display: inline-block;
+}
+
+.sign-up-text {
+    padding: 20px;
+    text-decoration: none;
+}
+
+.sign-up-text ul li {
+    display: block;
+    font-family: 'Black Ops One', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+}
+
+.sign-up-anser {
+    display: inline-table;
+    font-family: 'Black Ops One', cursive;
+    text-anchor: 2px;
+    color: rgb(253, 180, 44);
+    font-size: 1.9rem;
+    padding: 10px;
+}
+
+.sign-up-anser-leagues {
+    display: inline-table;
+    font-family: 'Black Ops One', cursive;
+    text-anchor: 2px;
+    color: rgb(128, 253, 44);
+    font-size: 1.9rem;
+    padding: 10px;
+}
+
+.sign-up-anser-tournaments {
+    display: inline-table;
+    font-family: 'Black Ops One', cursive;
+    text-anchor: 2px;
+    color: rgb(253, 44, 166);
+    font-size: 1.8rem;
+    padding: 8px;
+}
+
+.sign-up-anser-data {
+    display: inline-table;
+    font-family: 'Black Ops One', cursive;
+    width: 200px;
+    text-anchor: 2px;
+    color: rgb(253, 180, 44);
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.button-sign-up {
+    background-color: rgb(253, 180, 44);
+    margin: 20px;
+    padding: 7px;
+}
+
+.button-sign-up a {
+    font-size: 2.0rem;
+    letter-spacing: 3px;
+    font-family: 'Black Ops One', cursive;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#register {
+    background: url(img/027.jpg);
+    background-size: cover;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.register-w h2 {
+    font-family: 'Black Ops One', cursive;
+    color: rgb(253, 180, 44);
+    font-size: 5.5rem;
+    text-align: center;
+    text-shadow: 2px 3px 4px rgb(255, 231, 196), 5px 6px 15px rgb(0, 0, 0);
+}
+
+#register form {
+    font-size: 2.3rem;
+    letter-spacing: 0.1rem;
+    color: black;
+}
+
+.go-back {
+    background-color: rgb(253, 180, 44);
+    color: rgb(7, 59, 228);
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Black Ops One', cursive;
+    font-size: 2.0rem;
+    letter-spacing: 3px;
+    margin: 2px;
+    padding: 7px;
+}
+
+.killtest {
+    background-color: rgb(82, 44, 253);
+    color: rgb(25, 252, 5);
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Black Ops One', cursive;
+    font-size: 2.0rem;
+    margin: 50px;
+    padding: 7px;
+}
+
+#kill-modalbody {
+    font-family: 'Black Ops One', cursive;
+    background-color: rgba(0, 0, 0, 0.781);
+    color: rgb(25, 252, 5);
+    text-align: center;
+    text-decoration: none;
+    font-size: 3.0rem;
+    letter-spacing: 3px;
+}
+
+.killtest-n {
+    color: rgb(252, 5, 5);
+    text-align: center;
+    text-decoration: none;
+    font-size: 3.0rem;
+    letter-spacing: 3px;
+}
+
+.killstes-btn {
+    background-color: rgba(0, 0, 0, 0.781);
+    color: rgb(25, 252, 5);
+    font-size: 2.0rem;
+    margin: 5px;
+}

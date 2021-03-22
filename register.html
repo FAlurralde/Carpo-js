@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en ">
+
+<head>
+    <meta charset="UTF -8">
+    <meta name="viewport" content="width=device-widt, initial-scale=1.0">
+    <title> ElCarpo Register</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="carposcrims.css">
+    <meta name="description" content="Carpo’s, Custom Rooms every day by reservation, free to play">
+    <meta name="language" content="en">
+
+</head>
+
+<body id=register>
+
+
+
+    <header>
+
+        <a href="index.html"><img src="img/carpo.jpg" alt="Carpo’s logo" width="180px" height="80px"></a>
+
+        <div class="register-w">
+            <h2 class="w-reg">Start competing</h2>
+        </div>
+
+    </header>
+    <nav>
+
+
+
+
+        <form id="form-register" name="ragisterToPlay" onsubmit="return checkForm(this.value);" action="play.html">
+
+            <label for="nickName"> Pleace Choise a NickName: </label>
+            <br>
+            <input type="text" id="nickName" class="local" maxlength=40 size="50" placeholder="NickName">
+            <br>
+            <span id="errorNickName" class="error"></span>
+            <br>
+
+            <label for="idPm"> Pleace complite with your ID from Pubg Moblie: </label>
+            <br>
+            <input type="text" id="idpm" class="local" minlength="10" maxlength="10" size="20" placeholder="ID PUBG MOBILE">
+            <br>
+            <span id="errorIdPm" class="error"></span>
+            <br>
+
+            <label for="clanName"> Pleace complite with your Pubg Moblie Clan: </label>
+            <br>
+            <input type="text" id="clanName" class="local" maxlength="100" size="50" placeholder="Clan Name">
+            <br>
+            <span id="errorClan" class="error"></span>
+            <br>
+
+            <div id="div_server"> Pleace select your SERVER: </div>
+            <select>
+                            <option> ---</option>
+                            <option> NORTH AMERICA</option>
+                            <option> SOUTH AMERICA</option>
+                            <option> EUROPE</option>
+                            <option> ASIA</option>
+                            <option> MIDDLE EAST</option>
+                            <option> KRJP </option>
+          </select>
+            <br>
+
+            <label for="cell"> Pleace complite with your cell phone number: </label>
+            <br>
+            <input type="text" id="cell" class="local" maxlength="100" size="50" placeholder="cell phone number 'ex: (+54) 9 XXXXXXXXXX'  ">
+            <br>
+            <span id="errorCell" class="error"></span>
+            <br>
+
+
+            <div class="checkbox">
+                <input type="checkbox" id="checkbox" name="I accept the Terms of Use and Privacy Policy" required> I accept the
+                <a href="terms-of-use.html">Terms of Use </a> and Privacy Policy
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" required id="checkbox" name="I consent to the sending of commercial communications." required> I consent to the sending of commercial communications.
+            </div>
+
+            <br>
+
+            <button id="button2" class="button-sign-up" class="buttonPlay" class="btn btn-success"> Ready to play </button>
+
+            <!--
+
+            <input type="submit" class="button-sign-up" class="buttonPlay" value="Ready to play!" onclick="return validate();">
+        
+            <button class="button-sign-up" class="buttonPlay"> <a href="play.html" >  Ready to play </a> </button>
+            -->
+
+            <input type="reset" value="Reset All">
+
+        </form>
+        <div id="error"> </div>
+
+
+    </nav>
+
+
+
+
+    <script defer src="carpoojs.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+</body>
+
+
+
+</html>
